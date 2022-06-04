@@ -4,6 +4,7 @@ def count_bits(n):
         if (n%2):
             count += 1
         n = int(n/2)
-    return count
+    print(count)
 
-print(count_bits(5555))
+
+count_bits(1234)
